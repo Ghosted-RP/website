@@ -1,15 +1,13 @@
 import Logo from "./components/Logo";
 import Splash from "./components/Splash";
-import Stats from "./components/Stats";
-import CTA from "./components/Stats";
+import ButtonRow from "./components/ButtonRow";
 
 function App() {
 	return (
 		<div className='App'>
 			<Logo />
 			<Splash />
-			<Stats />
-			<CTA />
+			<ButtonRow />
 		</div>
 	);
 }
